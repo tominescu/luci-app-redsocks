@@ -18,6 +18,10 @@ o = s:option(Flag, "enable", translate("Enable"))
 o.default   = 1
 o.rmempty   = false
 
+o = s:option(Flag, "global", translate("Global Proxy"))
+o.default   = 1
+o.rmempty   = false
+
 o = s:option(Value, "local_port", translate("Local Port"))
 o.datatype  = "port"
 o.rmempty   = false
