@@ -14,7 +14,7 @@ cd OpenWrt-SDK-ar71xx-*
 git clone https://github.com/tominescu/redsocks-openwrt.git package/redsocks-openwrt
 git clone https://github.com/tominescu/luci-app-redsocks.git package/luci-app-redsocks
 # 编译 po2lmo (如果有po2lmo可跳过)
-pushd package/openwrt-dist-luci/tools/po2lmo
+pushd package/luci-app-redsocks/tools/po2lmo
 make && sudo make install
 popd
 # 选择要编译的包 LuCI -> 3. Applications
