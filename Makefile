@@ -40,7 +40,7 @@ define Package/luci-app-redsocks
 	SUBMENU:=3. Applications
 	TITLE:=Redsocks LuCI interface
 	PKGARCH:=all
-	DEPENDS:=+redsocks
+	DEPENDS:=+redsocks-dev
 endef
 
 define Package/luci-app-redsocks/description
